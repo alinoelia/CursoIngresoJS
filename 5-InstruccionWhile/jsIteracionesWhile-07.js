@@ -7,9 +7,22 @@ function mostrar()
 	var contador;
 	var acumulador;
 	var respuesta;
+	var promedio;
+
 	contador=0;
 	acumulador=0;
 	respuesta='si';
+
+	while(respuesta=="si")
+	{
+		contador=contador+1;
+		numeroIngresado=prompt("Ingrese numero: " + contador);
+		numeroIngresado=parseInt(numeroIngresado);
+		acumulador=acumulador+numeroIngresado;
+		respuesta=prompt("escriba si para continuar");
+	}
+
+	promedio = acumulador/contador;
 
 
 	txtIdSuma.value=acumulador;

@@ -4,7 +4,13 @@ Al presionar el botón pedir un sexo
 function mostrar()
 {
 	var sexoIngresado;
+
 	sexoIngresado = prompt("ingrese f ó m .");
+
+	while(isNaN(sexoIngresado==true))
+	{
+		sexoIngresado=prompt("Ingrese f o m nuevamente por favor");
+	}
 
 
 

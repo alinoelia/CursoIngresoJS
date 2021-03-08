@@ -16,4 +16,27 @@ function mostrar()
 	txtIdSuma.value=sumaPositivos;
 	txtIdProducto.value=multiplicacionNegativos;
 
+
+
+
+
+	var respuesta;
+	var sumaPositivos;
+	var multiplicacionNegativos;
+	var numero;
+	var valorDeVerdad;
+
+	contador = 0;
+	sumaPositivos = 0;
+	multiplicacionNegativos =1;
+	respuesta = 'si';
+
+	while (respuesta == "si")
+	{
+		contador = contador + 1;
+		numero = prompt("Ingrese numero");
+		numero = parseInt(numero);
+		valorDeVerdad = isNaN(numero);
+	}
+
 }//FIN DE LA FUNCIÓN
