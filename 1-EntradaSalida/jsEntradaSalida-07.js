@@ -21,7 +21,7 @@ function sumar()
 
 	//inicio operar
 	resultado= numeroUno+numeroDos;
-	mensaje= "la suma es :" +resultado;
+	mensaje= "la suma es: " + resultado;
 	//mostrar
 
 	alert(mensaje);
@@ -42,7 +42,7 @@ function restar()
 	numeroDos=parseInt(numeroDos);
 
 	resultado= numeroUno-numeroDos;
-	mensaje= "la resta es :" + resultado; //el signo + aca sirve para concatenar
+	mensaje= "la resta es: " + resultado; //el signo + aca sirve para concatenar
 
 	alert(mensaje);
 
@@ -63,7 +63,7 @@ function multiplicar()
 	numeroDos=parseInt(numeroDos);
 
 	resultado= numeroUno * numeroDos;
-	mensaje= "la producto es :" + resultado;
+	mensaje= "la producto es: " + resultado;
 
 	alert(mensaje);
 
@@ -83,7 +83,7 @@ function dividir()
 	numeroDos=parseInt(numeroDos);
 
 	resultado= numeroUno / numeroDos;
-	mensaje= "el cociente es :" + resultado;
+	mensaje= "el cociente es: " + resultado;
 
 	alert(mensaje);
 }
